@@ -81,7 +81,6 @@ exports.run = (argv=parser.argv, done=->) ->
 
     if argv.version
         console.log("aglio #{require('../package.json').version}")
-        console.log("olio #{require('aglio-theme-olio/package.json').version}")
         return done()
 
     # The option used to be called `template`
