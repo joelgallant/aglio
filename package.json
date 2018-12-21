@@ -1,6 +1,6 @@
 {
   "name": "aglio-patched",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "An API Blueprint renderer with theme support",
   "main": "lib/main.js",
   "bin": {
@@ -28,7 +28,7 @@
     "markdown"
   ],
   "dependencies": {
-    "aglio-theme-olio-patched": "1",
+    "aglio-theme-olio-patched": "2",
     "chokidar": "1",
     "cli-color": "1",
     "drafter": "1",
